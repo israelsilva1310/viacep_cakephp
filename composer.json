@@ -1,0 +1,34 @@
+{
+  "name": "israelsilva1310/viacep_cakephp",
+  "description": "Classe no CakePHP para pesquisar o CEP atraves do servico viacep",
+  "type": "library",
+  "licence": "GPL-3.0-or-later",
+  "keywords": [
+    "CEP",
+    "Pesquisa",
+    "ViaCEP"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Israe C A Silva",
+      "email": "israelsilva1310@gmail.com",
+      "homepage": "https://israelcasilva.com.br"
+    }
+  ],
+  "minimum-stability": "dev",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1-dev"
+    }
+  },
+  "homepage": "https://israelcasilva.com.br",
+  "autoload": {
+    "psr-4": {
+      "israelsilva1310\\viacep_cakephp\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0"
+  }
+}
